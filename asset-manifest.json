@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/myreactsite/static/css/main.85dee01b.css",
+    "main.js": "/myreactsite/static/js/main.eb65f44b.js",
+    "static/js/787.7cb2e3e1.chunk.js": "/myreactsite/static/js/787.7cb2e3e1.chunk.js",
+    "static/media/app.png": "/myreactsite/static/media/app.9f7cec3477cc5f21980d.png",
+    "static/media/contact.png": "/myreactsite/static/media/contact.401662edec2f05084011.png",
+    "static/media/started.png": "/myreactsite/static/media/started.809ebc5e1ae5f32a2865.png",
+    "static/media/service.jpg": "/myreactsite/static/media/service.18fdc9dcfb03ce980566.jpg",
+    "static/media/web.jpg": "/myreactsite/static/media/web.cbb49adc00711b6ceb5a.jpg",
+    "static/media/android.jpg": "/myreactsite/static/media/android.95a5b188a264626be576.jpg",
+    "index.html": "/myreactsite/index.html",
+    "main.85dee01b.css.map": "/myreactsite/static/css/main.85dee01b.css.map",
+    "main.eb65f44b.js.map": "/myreactsite/static/js/main.eb65f44b.js.map",
+    "787.7cb2e3e1.chunk.js.map": "/myreactsite/static/js/787.7cb2e3e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85dee01b.css",
+    "static/js/main.eb65f44b.js"
+  ]
+}
