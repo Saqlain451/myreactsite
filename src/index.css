@@ -1,13 +1,93 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  padding: none;
+  border: none;
+  font-family: "Mulish", sans-serif;
+}
+.active {
+  color: #33b5e5 !important;
+}
+.brand {
+  color: #0099cc !important;
+}
+.btn-started {
+  background-color: transparent !important;
+  border: 2px solid #33b5e5 !important;
+  border-radius: 25px !important;
+  color: #0099cc !important;
+  letter-spacing: 0.1rem !important;
+  text-transform: capitalize !important;
+}
+.btn-started:hover {
+  background-color: #0099cc !important;
+  color: white !important;
+}
+.home {
+  display: flex !important;
+  align-items: center !important;
+  padding-top: 4vw !important;
+  padding-bottom: 3vw !important;
+}
+.animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.btn-primary{
+  text-transform: capitalize !important;
+  letter-spacing: 0.1rem;
+  color: white !important;
+}
+.card-title{
+  text-transform: capitalize !important;
+  letter-spacing: 0.1rem;
+}
+.card{
+  box-shadow: -3px 3px 3px rgba(0,0,0,0.2) !important;
+}
+.card:hover{
+  box-shadow: -5px 5px 5px rgba(0,0,0,0.3) !important;
+  border: none !important;
+}
+.test{
+  text-decoration: none !important;
+  color: #0099cc !important;
+}
+.test:hover{
+  color: white !important;
+}
+
+form{
+  background-color: white !important;
+  padding-top: 20px !important;
+  padding-bottom: 30px !important;
+  padding-right : 10px !important;
+  padding-left: 10px !important;
+  box-shadow: -3px 3px 5px rgba(0,0,0,0.2) !important;;
+  border-radius: 5px !important;
+  border: 1px solid whitesmoke;
+}
+input, textarea{
+  background-color: transparent !important;
+}
+span{
+  border-bottom: 3px solid #33b5e5 !important;
 }
